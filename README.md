@@ -1,2 +1,2 @@
-# ipc-sample
-RT-Thread ipc samples.
+# device-ipc-sample
+RT-Thread device ipc samples.
