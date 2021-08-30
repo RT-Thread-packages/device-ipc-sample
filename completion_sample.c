@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2006-2018, RT-Thread Development Team
+ * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -11,8 +11,8 @@
 /*
  * 程序清单：完成量例程
  *
- * 程序会初始化2个线程及初始化一个完成量对象
- * 一个线程等待另一个线程发送完成量
+ * 程序会初始化线程1，线程2及初始化一个完成量对象
+ * 线程1等待线程2发送完成量
 */
 #include <rtthread.h>
 #include <rtdevice.h>
